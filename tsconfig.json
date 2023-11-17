@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "gmp-outline": [
+        "dist/gmp-outline"
+      ],
+      "gmp-outline/*": [
+        "dist/gmp-outline/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
